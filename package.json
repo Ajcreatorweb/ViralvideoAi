@@ -3,13 +3,14 @@
   "name": "viralvideoai",
   "version": "1.0.0",
   "private": true,
-  "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
-    "postinstall": "fumadocs-mdx",
-    "vercel-build": "npm install --force && npm run build"
-  },
+"scripts": {
+  "dev": "next dev",
+  "build": "next build",
+  "start": "next start",
+  "postinstall": "fumadocs-mdx",
+  "vercel-build": "npm install typescript @types/node @types/react @types/react-dom --save-dev --force && next build"
+}
+},
   "dependencies": {
     "next": "15.5.9",
     "react": "18.3.1",

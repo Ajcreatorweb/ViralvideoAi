@@ -1,15 +1,13 @@
 {
-  "type": "module",
   "name": "viralvideoai",
   "version": "1.0.0",
   "private": true,
-"scripts": {
-  "dev": "next dev",
-  "build": "next build",
-  "start": "next start",
-  "postinstall": "fumadocs-mdx",
-"vercel-build": "npm install --force && npm install typescript@5.4.5 @types/node@20.12.7 @types/react@18.3.1 @types/react-dom@18.3.0 --save-dev && next build"
-},
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "vercel-build": "npm install --force && npm run build"
+  },
   "dependencies": {
     "next": "15.5.9",
     "react": "18.3.1",
@@ -20,13 +18,13 @@
     "lucide-react": "^0.378.0",
     "@radix-ui/react-dialog": "^1.0.5"
   },
-"devDependencies": {
-  "@types/node": "^20.0.0",
-  "@types/react": "^18.3.3",
-  "@types/react-dom": "^18.3.0",
-  "typescript": "^5.0.0",
-  "autoprefixer": "^10.4.19",
-  "postcss": "^8.4.38",
-  "tailwindcss": "^3.4.3"
-}
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "@types/react": "^18.3.3",
+    "@types/react-dom": "^18.3.0",
+    "typescript": "^5.0.0",
+    "autoprefixer": "^10.4.19",
+    "postcss": "^8.4.38",
+    "tailwindcss": "^3.4.3"
   }
+}
